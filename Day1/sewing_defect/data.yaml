@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Broken', 'Skip', 'cat']
+
+roboflow:
+  workspace: object-detection-39pwr
+  project: my-first-project-jks8f
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-39pwr/my-first-project-jks8f/dataset/3

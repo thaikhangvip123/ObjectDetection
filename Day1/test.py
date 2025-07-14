@@ -1,12 +1,12 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import h5py
-import scipy
-from PIL import Image
-from scipy import ndimage
-from lr_utils import load_dataset
+from ultralytics import YOLO
 
-%matplotlib inline
+# Load a pretrained YOLOv8 model (or start from scratch)
+model = YOLO("yolov8n.pt")  # or yolov8s.pt, yolov8m.pt, etc.
 
-# Loading the data (cat/non-cat)
-train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
+# Train on your custom dataset
+model.train(
+    data="dataset/data.yaml",  # path to your dataset config
+    epochs=50,
+    imgsz=640,
+    batch=16
+)
