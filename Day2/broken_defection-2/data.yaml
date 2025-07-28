@@ -1,0 +1,12 @@
+names:
+- broken-error
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: broken_defection-5p5pu
+  url: https://universe.roboflow.com/object-detection-39pwr/broken_defection-5p5pu/dataset/2
+  version: 2
+  workspace: object-detection-39pwr
+test: ../test/images
+train: ../train/images
+val: ../valid/images
