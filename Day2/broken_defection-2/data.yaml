@@ -7,6 +7,6 @@ roboflow:
   url: https://universe.roboflow.com/object-detection-39pwr/broken_defection-5p5pu/dataset/2
   version: 2
   workspace: object-detection-39pwr
-test: ../test/images
-train: ../train/images
-val: ../valid/images
+test: E:/ObjectDetection/Day2/broken_defection-2/test/images
+train: E:/ObjectDetection/Day2/broken_defection-2/train/images
+val: E:/ObjectDetection/Day2/broken_defection-2/valid/images
