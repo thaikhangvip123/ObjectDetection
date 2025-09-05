@@ -1,0 +1,14 @@
+names:
+- FDI - v1 2025-07-24 5-46pm
+- broken-error
+- broken_defection - v2 2025-07-28 5-02pm
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: broken_defection-5p5pu
+  url: https://universe.roboflow.com/object-detection-39pwr/broken_defection-5p5pu/dataset/3
+  version: 3
+  workspace: object-detection-39pwr
+test: ../test/images
+train: ../train/images
+val: ../valid/images

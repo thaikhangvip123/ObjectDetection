@@ -1,0 +1,15 @@
+path: Newdataset
+
+train: E:/ObjectDetection/Day3/Newdataset/images/train
+val: E:/ObjectDetection/Day3/Newdataset/images/val
+test: E:/ObjectDetection/Day3/Newdataset/images/test
+
+nc: 2
+names: ['0', 'object']
+
+# roboflow:
+#   workspace: object-detection-39pwr
+#   project: defection-1htue
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/object-detection-39pwr/defection-1htue/dataset/1

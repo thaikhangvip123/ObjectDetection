@@ -1,0 +1,14 @@
+from ultralytics import YOLO
+
+
+# Load a pretrained YOLOv8 model (or start from scratch)
+model = YOLO("yolov8n.pt")  # or yolov8s.pt, yolov8m.pt, etc.
+
+# Train on your custom dataset
+if __name__ == '__main__':
+    result = model.train(
+        data="E:\\ObjectDetection\\Day3\\Newdataset\\data.yaml",  # path to your dataset config
+        epochs=50,
+        imgsz=640,
+        batch=16
+    )

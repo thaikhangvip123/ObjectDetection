@@ -1,0 +1,5 @@
+path: E:\ObjectDetection\Day4\bonding
+train: E:\ObjectDetection\Day4\bonding\images\train
+val: E:\ObjectDetection\Day4\bonding\images\val
+nc: 2
+names: ['broken', 'bonding']
